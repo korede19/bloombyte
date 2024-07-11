@@ -3,6 +3,7 @@ import "./home.css";
 import Header from "../../components/header/header";
 import Hero from "../../components/hero/hero";
 import GrowthSection from "../../components/growthSection/growthSection";
+import Plugin from "../../components/plugin/plugin";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
         <Hero />
       </div>
       <GrowthSection />
+      <Plugin />
     </>
   );
 };

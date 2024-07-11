@@ -1,19 +1,11 @@
 import React, { useEffect, useState } from "react";
 import "./growthSection.css";
 import Growth from "../../assets/growth.png";
+import Counter from "../counter/counter";
+import Icon1 from "../../assets/icons8.png";
+import Icon2 from "../../assets/icons9.png";
 
 const GrowthSection = () => {
-  const [counter, setCounter] = useState(0);
-  useEffect(() => {
-    if (counter < 154) {
-      const interval = setInterval(() => {
-        setCounter((counter) => counter + 1);
-      }, 50);
-      return () => {
-        clearInterval(interval);
-      };
-    }
-  }, [counter]);
   return (
     <>
       <div className="growthContain">
@@ -32,13 +24,13 @@ const GrowthSection = () => {
         </div>
       </div>
       <div className="counter">
-        <div className="firstCount">
-          <h1>{counter}</h1>
-          <h2>Visitors</h2>
+        <div className="count1">
+          <img src={Icon1} alt="" />
+          <Counter count={159} text="Visitors" />
         </div>
-        <div className="firstCount">
-          <h1>20</h1>
-          <h2>Projects</h2>
+        <div className="count1">
+          <img src={Icon1} alt="" />
+          <Counter count={20} text="Projects" />
         </div>
       </div>
     </>

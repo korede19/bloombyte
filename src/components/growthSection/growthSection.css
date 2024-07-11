@@ -71,3 +71,8 @@
   color: #222;
   font-weight: 400;
 }
+
+.count1 {
+  display: flex;
+  gap: 20px;
+}
