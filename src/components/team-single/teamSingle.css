@@ -1,0 +1,43 @@
+.team-single-container {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    box-shadow: 0px 1px 3px 1px #00000026, 0px 1px 2px 0px #0000004D;
+    padding: 16px;
+}
+
+.team-single-container>h4 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
+
+.team-text {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.team-text div {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.team-text div p {
+    font-size: 12px;
+    /* line-height: 24px; */
+    font-weight: 400;
+    font-family: "Outfit", sans-serif;
+}
+
+.team-text img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+}

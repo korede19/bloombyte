@@ -1,9 +1,9 @@
-import React from "react";
 import "./home.css";
 import Header from "../../components/header/header";
 import Hero from "../../components/hero/hero";
 import GrowthSection from "../../components/growthSection/growthSection";
 import Plugin from "../../components/plugin/plugin";
+import Team from "../../components/team/team";
 
 const Home = () => {
   return (
@@ -14,6 +14,7 @@ const Home = () => {
       </div>
       <GrowthSection />
       <Plugin />
+      <Team />
     </>
   );
 };

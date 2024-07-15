@@ -1,0 +1,24 @@
+.team-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 100px;
+    gap: 32px;
+}
+
+.team-container h2 {
+    font-size: 40px;
+    line-height: 100%;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+}
+
+.team-container>div {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
