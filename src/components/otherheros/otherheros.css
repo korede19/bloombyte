@@ -1,0 +1,18 @@
+.HerosContain {
+  background-image: url("../../assets/bloombyteimg.png");
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-position: center center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.HerosContain h1 {
+  font-size: 50px;
+  font-family: "outfit", sans-serif;
+  color: #fff;
+  text-align: center;
+}

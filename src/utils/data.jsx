@@ -1,4 +1,5 @@
 import Bloom from "../assets/bloombyteimg.png";
+import About from "../pages/about/about";
 
 export const meunLinks = [
   "Home",

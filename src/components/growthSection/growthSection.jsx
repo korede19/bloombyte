@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import "./growthSection.css";
 import Growth from "../../assets/growth.png";
 import Counter from "../counter/counter";
@@ -17,7 +18,9 @@ const GrowthSection = () => {
             are on a mission, to see every young Nigerian equipped with at least
             a digital skill.
           </p>
-          <button className="growthBtn">Learn More</button>
+          <Link to="/about">
+            <button className="growthBtn">Learn More</button>
+          </Link>
         </div>
         <div className="growthImg">
           <img src={Growth} alt="image" />
