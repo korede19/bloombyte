@@ -1,0 +1,98 @@
+.footerContainer {
+  background-color: #222;
+  width: 100%;
+  padding: 80px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footerIcons {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footerIcons h1 {
+  font-family: "outfit", sans-serif;
+  font-size: 30px;
+  color: #fff;
+}
+
+.footIcons {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.footerContact {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footerContact h1 {
+  font-size: 30px;
+  font-family: "outfit", sans-serif;
+  color: #fff;
+}
+
+.contactOne p {
+  font-size: 18px;
+  font-family: "outfit", sans-serif;
+  color: #fff;
+  width: 70%;
+}
+
+.footerSubscribe {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.footerSubscribe h1 {
+  font-size: 30px;
+  color: #fff;
+  font-family: "outfit", sans-serif;
+}
+
+.footerSubscribe p {
+  font-size: 18px;
+  font-family: "outfit", sans-serif;
+  color: #fff;
+}
+
+.mailInput {
+  width: 100%;
+  padding: 10px 10px;
+  outline: none;
+  font-family: "outfit", sans-serif;
+  color: #333332;
+  font-size: 17px;
+  border: 0px;
+  border-radius: 4px;
+}
+
+.inputbtn button {
+  background-color: #8b4d07;
+  padding: 10px 30px;
+  color: #fff;
+  font-family: "outfit", sans-serif;
+  font-size: 16px;
+  margin: 20px 0px;
+  border: 0px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.copyright {
+  padding: 30px;
+  background-color: #fff;
+}
+
+.copyright p {
+  color: #8b4d07;
+  font-size: 20px;
+  font-family: "outfit", sans-serif;
+  text-align: center;
+  font-weight: 500;
+}

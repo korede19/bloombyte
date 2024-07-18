@@ -4,6 +4,7 @@ import Hero from "../../components/hero/hero";
 import GrowthSection from "../../components/growthSection/growthSection";
 import Plugin from "../../components/plugin/plugin";
 import Team from "../../components/team/team";
+import Footer from "../../components/footer/footer";
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <GrowthSection />
       <Plugin />
       <Team />
+      <Footer />
     </>
   );
 };
