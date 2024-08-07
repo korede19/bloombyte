@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./header.css";
 import { meunLinks } from "../../utils/data";
 
-const Header = () => {
+const Header = ({ url }) => {
   return (
     <>
       <div className="headerContain">
@@ -12,7 +12,11 @@ const Header = () => {
         </div>
         <div className="meuns">
           {meunLinks?.map((item, index) => {
-            return <a key={index}>{item}</a>;
+            return (
+              <Link to={url}>
+                <p key={index}>{item.text}</p>
+              </Link>
+            );
           })}
         </div>
         <div className="headbtn">

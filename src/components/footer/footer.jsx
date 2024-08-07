@@ -3,7 +3,7 @@ import "./footer.css";
 import Facebook from "../../svg/facebook";
 import Linkedln from "../../svg/linkedln";
 import Location from "../../svg/location";
-import Mailbox from "../../svg/mail";
+import Gmail from "../../svg/gmail";
 import Phone from "../../svg/phone";
 
 const Footer = () => {
@@ -22,18 +22,18 @@ const Footer = () => {
         <div className="footerContact">
           <h1>Contact Us</h1>
           <div className="contactOne">
-            {/* <Location /> */}
+            <Location />
             <p>
               After Bridge, B11 Akaraki/Falowo Layout, Aule Rd, Opposite Cele
               Junction, Off New Aule Road, Akure
             </p>
           </div>
           <div className="contactOne">
-            {/* <Mailbox /> */}
+            <Gmail />
             <p>bloombytehub@gmail.com</p>
           </div>
           <div className="contactOne">
-            {/* <Phone /> */}
+            <Phone />
             <p>0812 396 0422</p>
           </div>
         </div>

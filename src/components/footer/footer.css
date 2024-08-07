@@ -1,5 +1,5 @@
 .footerContainer {
-  background-color: #222;
+  background-color: #273961;
   width: 100%;
   padding: 80px 100px;
   display: flex;
@@ -36,6 +36,11 @@
   color: #fff;
 }
 
+.contactOne {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
 .contactOne p {
   font-size: 18px;
   font-family: "outfit", sans-serif;
@@ -73,15 +78,20 @@
 }
 
 .inputbtn button {
-  background-color: #8b4d07;
+  background-color: transparent;
   padding: 10px 30px;
+  border: 1px solid #fff;
   color: #fff;
   font-family: "outfit", sans-serif;
   font-size: 16px;
   margin: 20px 0px;
-  border: 0px;
   border-radius: 4px;
   cursor: pointer;
+}
+
+.inputbtn button:hover {
+  background-color: #fff;
+  color: #122582;
 }
 
 .copyright {
@@ -90,7 +100,7 @@
 }
 
 .copyright p {
-  color: #8b4d07;
+  color: #122582;
   font-size: 20px;
   font-family: "outfit", sans-serif;
   text-align: center;

@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import "./growthSection.css";
 import Growth from "../../assets/growth.png";
 import Counter from "../counter/counter";
-import Icon1 from "../../assets/icons8.png";
-import Icon2 from "../../assets/icons9.png";
+import Projects from "../../svg/projects";
+import Users from "../../svg/users";
 
 const GrowthSection = () => {
   return (
@@ -28,11 +28,12 @@ const GrowthSection = () => {
       </div>
       <div className="counter">
         <div className="count1">
-          <img src={Icon1} alt="" />
+          <Users />
           <Counter count={159} text="Visitors" />
         </div>
         <div className="count1">
-          <img src={Icon1} alt="" />
+          <Projects />
+
           <Counter count={20} text="Projects" />
         </div>
       </div>

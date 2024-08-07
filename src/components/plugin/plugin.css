@@ -1,5 +1,5 @@
 .pluginContain {
-  background-image: url("../../assets/bloombyteimg.png");
+  background-image: url("../../assets/background.png");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -41,7 +41,8 @@
 }
 
 .pluginContain button:hover {
-  background-color: #fff;
-  color: #8b4d07;
+  background-color: rgb(80, 130, 221);
+  color: #ffffff;
   font-weight: 600;
+  border: 1px solid rgb(80, 130, 221);
 }
